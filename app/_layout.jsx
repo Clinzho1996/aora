@@ -1,5 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
-import { Slot, SplashScreen, Stack } from "expo-router";
+import { SplashScreen, Stack } from "expo-router";
 import { useFonts } from "expo-font";
 import { useEffect } from "react";
 import GlobalProvider from "@/context/GlobalProvider";
@@ -46,5 +45,3 @@ const RootLayout = () => {
 };
 
 export default RootLayout;
-
-const styles = StyleSheet.create({});
