@@ -27,7 +27,7 @@ const Search = () => {
             title={item.title}
             thumbnail={item.thumbnail}
             video={item.users.video}
-            creator={item.users.username}
+            users={item.users.username}
             avatar={item.users.avatar}
           />
         )}
